@@ -1,6 +1,7 @@
 module github.com/bloomberg/goldpinger/v3
 
 go 1.21
+toolchain go1.23.7
 
 require (
 	github.com/cespare/xxhash v1.1.0
@@ -16,7 +17,7 @@ require (
 	github.com/stuartnelson3/go-rendezvous v0.2.0
 	go.uber.org/zap v1.26.0
 	golang.org/x/image v0.18.0
-	golang.org/x/net v0.23.0
+	golang.org/x/net v0.36.0
 	k8s.io/api v0.28.3
 	k8s.io/apimachinery v0.28.3
 	k8s.io/client-go v0.28.3
@@ -62,9 +63,9 @@ require (
 	go.opentelemetry.io/otel/trace v1.19.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/oauth2 v0.13.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/term v0.18.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
